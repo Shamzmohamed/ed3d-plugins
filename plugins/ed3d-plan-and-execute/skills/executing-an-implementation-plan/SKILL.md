@@ -14,7 +14,7 @@ Execute plan by dispatching fresh subagent per task, with code review after each
 ## Overview
 
 **When NOT to use:**
-- Need to review plan first (use executing-plans)
+- No implementation plan exists yet (use writing-implementation-plans first)
 - Plan needs revision (brainstorm first)
 
 ### Grouping Tasks by Subcomponent

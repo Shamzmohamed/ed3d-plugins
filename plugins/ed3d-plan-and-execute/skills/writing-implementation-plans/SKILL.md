@@ -242,7 +242,7 @@ The execution agent will group these tasks and verify after all complete. The te
 ```markdown
 # [Feature Name] Implementation Plan
 
-> **For Claude:** REQUIRED SUB-SKILL: Use ed3d-plan-and-execute:subagent-driven-development to implement this plan task-by-task.
+> **For Claude:** REQUIRED SUB-SKILL: Use ed3d-plan-and-execute:executing-an-implementation-plan to implement this plan task-by-task.
 
 **Goal:** [One sentence describing what this builds]
 
