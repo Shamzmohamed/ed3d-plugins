@@ -1,17 +1,24 @@
 # Changelog
 
+## ed3d-plan-and-execute 1.6.1
+
+Fixes task tracking to include dependencies and absolute paths.
+
+**Fixed:**
+- Tasks now use addBlockedBy to enforce execution order (NA→NB→NC→ND, then next phase)
+- Task descriptions include absolute paths for design file and output file, so tasks remain actionable after compaction
+- Orchestration tasks in starting-an-implementation-plan now have explicit dependencies
+
 ## ed3d-plan-and-execute 1.6.0
 
 Adds granular task tracking to implementation plan writing to survive context compaction.
 
 **New in `writing-implementation-plans`:**
 - **Granular per-phase tasks:** Instead of one task per phase, now creates sub-tasks for each step:
-  - Phase NA: Read [Phase Name] from {absolute design path}
+  - Phase NA: Read [Phase Name] from design plan
   - Phase NB: Dispatch codebase-investigator to verify current state
   - Phase NC: Research external dependencies (if applicable)
-  - Phase ND: Write {absolute output path}/phase_0N.md
-- **Task dependencies:** Tasks use addBlockedBy to enforce execution order (NA→NB→NC→ND, then next phase)
-- **Absolute paths in task descriptions:** Design file and output file paths are absolute, so tasks remain actionable after compaction
+  - Phase ND: Write phase file to disk
 - **Finalization task:** Explicitly states "fix ALL issues including minor ones" — model cannot rationalize skipping minor issues
 - **Plan validation as tracked task:** Must complete with zero issues before handoff
 
@@ -19,14 +26,13 @@ Adds granular task tracking to implementation plan writing to survive context co
 - **Phase markers:** Design plans now require `<!-- START_PHASE_N -->` / `<!-- END_PHASE_N -->` markers around each implementation phase, enabling granular parsing
 
 **New in `starting-an-implementation-plan`:**
-- **Orchestration tasks with dependencies:** Tracks Branch setup → Create implementation plan → Re-read skill → Execution handoff with explicit blocking
+- **Orchestration tasks:** Tracks Branch setup, Create implementation plan, Re-read skill, Execution handoff
 - **Restore context step:** Re-reads skill before handoff to restore instructions post-compaction
 - **Terminology clarification:** Renamed "Phase 1/2/3" to descriptive names (Branch Setup, Planning, Execution Handoff) to avoid confusion with implementation plan phases
 
 **Fixed:**
 - Code reviewer step was being forgotten after compaction — now tracked as explicit Finalization task
 - Minor issues were being skipped — task text now makes fixing them mandatory
-- Tasks were not showing dependencies — now use addBlockedBy for proper blocking
 
 ## ed3d-plan-and-execute 1.5.1
 
